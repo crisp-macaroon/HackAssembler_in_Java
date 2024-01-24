@@ -1,6 +1,7 @@
-#The assembler is made up of 3 seperate class files
+*The assembler is made up of 3 seperate class files
 
-#data_list
+*data_list
+
 data_list is a class consisting of various instruction set which are contained in HashMaps.
 These instructions are used to convert the assembly code into its hack binary form.
 The instructions are made up of A-instruction and C-instruction
