@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.regex.Pattern;
 
-class hack_assembly{
+class hack_assembler{
 	public data_list data = new data_list();             // calling the pre-defined data list and instruction set
 	ArrayList<String> bin =  new ArrayList<>();			// List to store the binary code
 	HashMap<String,String> table = new HashMap<>();		// hashmap to store symbols not defined in symbol table
@@ -120,7 +120,7 @@ class hack_assembly{
 				fr.close();
 			}
 	public static void main(String[] args) throws IOException{
-		hack_assembly ob1 = new hack_assembly();						   // object creation
+		hack_assembler ob1 = new hack_assembler();						   // object creation
 		ob1.firstpass();												   // calling functions
 		ob1.secondpass();     // input assembly file
 		ob1.out();		   // output binary code file
