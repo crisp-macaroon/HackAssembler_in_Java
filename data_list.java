@@ -34,7 +34,6 @@ class data_list
 	predif.put("ARG", "2");
 	predif.put("THIS", "3");
 	predif.put("THAT", "4");
-	predif.put("LOOP", "4");
 	predif.put("STOP", "18");
 	predif.put("END", "22"); 
 	
